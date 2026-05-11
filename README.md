@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Starter Kit: Contextos de IA para Desarrollo Frontend
 
-## Getting Started
+Este paquete contiene los lineamientos, reglas de oro, y patrones de diseño utilizados en CCurity/Aionia para garantizar que las Inteligencias Artificiales (como Cursor, Copilot o Gemini) escriban código de altísima calidad desde el primer momento en tu nuevo proyecto de Blog.
 
-First, run the development server:
+## ¿Qué incluye este paquete?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **La Carpeta `.agent/skills` (¡La más importante!)**
+   Esta carpeta contiene los "Skills" o reglas predefinidas que usamos. Si estás usando Cursor o Gemini, dile a tu agente que lea el contenido de esta carpeta antes de empezar a programar.
+   - `stitch-ui-design/SKILL.md`: Aquí están los secretos de diseño, espaciados, colores y tipografía para que todo se vea profesional, con fondos limpios y componentes muy pulidos.
+   - `nextjs-app-router-patterns/SKILL.md`: Las mejores prácticas para usar React y Next.js. Esto hará que el blog sea súper rápido para SEO.
+   - `ccurity-autonomous-workflow/SKILL.md`: El flujo de trabajo y arquitectura. Aunque el blog será más simple, las filosofías de calidad están aquí.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Archivo Global de Estilos (`globals.css`)**
+   Contiene el punto de partida estándar de Tailwind V4 y las correcciones de modo oscuro que usamos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instrucciones para arrancar el Blog
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Descomprime** este archivo `.zip`.
+2. **Crea el proyecto base** de Next.js (el agente de IA te puede ayudar con el comando `npx create-next-app@latest`).
+3. **Copia la carpeta `.agent`** en la raíz del nuevo proyecto.
+4. **Copia el archivo `globals.css`** reemplazando el que te da Next.js por defecto.
+5. **Abre el proyecto en tu editor** (ej. Cursor) y pégalo el siguiente prompt en el chat de IA:
 
-## Learn More
+> *"Actúa como un desarrollador Frontend Experto. Acabo de inicializar este proyecto para un Blog. Por favor revisa detenidamente las reglas en la carpeta `.agent/skills/` (especialmente stitch-ui-design y nextjs-app-router-patterns). Quiero que construyas la arquitectura base de mi blog y la landing page siguiendo EXACTAMENTE esos estándares de diseño limpio y moderno."*
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+¡Éxito con la construcción del blog!
