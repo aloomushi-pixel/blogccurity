@@ -10,24 +10,14 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-emerald-200">
-      <header className="bg-slate-900 text-white py-6 shadow-md sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 flex items-center justify-between">
-          <Link href="/inicio" className="text-2xl font-bold tracking-tight text-emerald-400">CCURITY</Link>
-          <nav className="hidden sm:flex gap-6">
-            <Link href="/inicio" className="hover:text-emerald-400 transition-colors">Inicio</Link>
-            <Link href="/contacto" className="hover:text-emerald-400 transition-colors">Contacto</Link>
-          </nav>
-        </div>
-      </header>
-
+    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-primary/20">
       <main className="max-w-3xl mx-auto px-6 py-12">
         <article className="prose prose-slate prose-lg md:prose-xl max-w-none">
           <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-4">
             El costo oculto del "Rack Espagueti": ¿Por qué es vital certificar el cableado estructurado de tu empresa?
           </h1>
           
-          <p className="text-lg text-slate-500 italic border-l-4 border-emerald-500 pl-4 mb-8">
+          <p className="text-lg text-slate-500 italic border-l-4 border-primary pl-4 mb-8">
             Dirigido a: Gerentes de TI, administradores de edificios, arquitectos y directores de operaciones.
           </p>
 
@@ -55,8 +45,8 @@ export default function BlogPost() {
             <li><strong>Sobrecalentamiento:</strong> La acumulación de cables bloquea el flujo de aire, reduciendo la vida útil de los equipos.</li>
           </ul>
 
-          <p className="mt-6 p-4 bg-emerald-50 rounded-lg border border-emerald-100 text-emerald-900">
-            <strong>La solución:</strong> Un servicio profesional de <Link href="/servicios/mantenimiento-y-peinado-de-racks" className="text-emerald-700 font-bold underline decoration-emerald-300 hover:decoration-emerald-600 transition-colors">mantenimiento y peinado de racks</Link>. Mediante el uso de organizadores, velcros y etiquetado bajo normas TIA/EIA, transformamos el caos en un panel de control eficiente.
+          <p className="mt-6 p-4 bg-primary/10 rounded-lg border border-primary/20 text-slate-900">
+            <strong>La solución:</strong> Un servicio profesional de <Link href="/servicios/mantenimiento-y-peinado-de-racks" className="text-primary font-bold underline hover:text-primary/80 transition-colors">mantenimiento y peinado de racks</Link>. Mediante el uso de organizadores, velcros y etiquetado bajo normas TIA/EIA, transformamos el caos en un panel de control eficiente.
           </p>
 
           <h3 className="text-2xl font-bold text-slate-800 mt-12 mb-4">
@@ -64,10 +54,10 @@ export default function BlogPost() {
           </h3>
           <ul className="list-disc pl-6 space-y-4">
             <li>
-              <strong>Cableado de Cobre (Cat 6 y Cat 6A):</strong> Es el estándar para llevar internet de alta velocidad y energía a estaciones de trabajo y sistemas de <Link href="/servicios/cctv-y-videovigilancia" className="text-emerald-600 hover:text-emerald-800 underline transition-colors">cctv y videovigilancia</Link>. La Cat 6A es la norma corporativa actual.
+              <strong>Cableado de Cobre (Cat 6 y Cat 6A):</strong> Es el estándar para llevar internet de alta velocidad y energía a estaciones de trabajo y sistemas de <Link href="/servicios/cctv-y-videovigilancia" className="text-primary hover:text-primary/80 underline transition-colors">cctv y videovigilancia</Link>. La Cat 6A es la norma corporativa actual.
             </li>
             <li>
-              <strong>Fibra Óptica:</strong> Si necesitas conectar dos naves industriales o superar la barrera de los 90 metros, la <Link href="/servicios/instalacion-fibra-optica" className="text-emerald-600 hover:text-emerald-800 underline transition-colors">instalación de fibra óptica</Link> es la ruta obligatoria para tu backbone.
+              <strong>Fibra Óptica:</strong> Si necesitas conectar dos naves industriales o superar la barrera de los 90 metros, la <Link href="/servicios/instalacion-fibra-optica" className="text-primary hover:text-primary/80 underline transition-colors">instalación de fibra óptica</Link> es la ruta obligatoria para tu backbone.
             </li>
           </ul>
 
@@ -75,12 +65,12 @@ export default function BlogPost() {
             3. ¿Por qué es importante certificar un cableado estructurado?
           </h3>
           <p>
-            Para garantizar que tu red cumple con las estrictas normas TIA/EIA, es fundamental realizar una <Link href="/servicios/certificacion-de-redes" className="text-emerald-600 hover:text-emerald-800 underline transition-colors">certificación de redes</Link>. Utilizando escáneres de alta precisión (Fluke Networks), auditamos cada cable y emitimos un reporte técnico en PDF.
+            Para garantizar que tu red cumple con las estrictas normas TIA/EIA, es fundamental realizar una <Link href="/servicios/certificacion-de-redes" className="text-primary hover:text-primary/80 underline transition-colors">certificación de redes</Link>. Utilizando escáneres de alta precisión (Fluke Networks), auditamos cada cable y emitimos un reporte técnico en PDF.
           </p>
 
           <div className="my-12 p-8 bg-slate-900 text-white rounded-2xl shadow-2xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-emerald-500 rounded-full opacity-20 blur-2xl"></div>
-            <h3 className="text-2xl font-bold text-emerald-400 mt-0 mb-4 flex items-center gap-2">
+            <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-primary rounded-full opacity-20 blur-2xl"></div>
+            <h3 className="text-2xl font-bold text-white mt-0 mb-4 flex items-center gap-2">
               <span className="text-3xl">🏆</span> Caso de Éxito: Renovando un Site sin detener la operación
             </h3>
             <p className="text-slate-300 m-0">
@@ -126,7 +116,7 @@ export default function BlogPost() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {/* Botón Principal */}
-            <Link href="/contacto" className="w-full sm:w-auto px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white font-bold rounded-xl shadow-lg shadow-slate-900/20 transition-all transform hover:-translate-y-1">
+            <Link href="/contacto" className="w-full sm:w-auto px-8 py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/20 transition-all transform hover:-translate-y-1">
               Solicita un Levantamiento Técnico Sin Costo
             </Link>
             
