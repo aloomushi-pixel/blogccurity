@@ -35,8 +35,8 @@ export default function BlogPost() {
             ¿Al abrir la puerta de tu Site te encuentras con una cascada incomprensible de cables enredados, sin identificar y colgando al azar? A esto se le conoce en el sector corporativo como el "rack espagueti".
           </p>
           
-          <div className="my-8 rounded-xl bg-slate-200 border-2 border-dashed border-slate-400 flex items-center justify-center h-64 text-slate-500 font-semibold shadow-inner">
-            [SUBIR AQUÍ FOTO REAL DE ANTES Y DESPUÉS DE RACK]
+          <div className="my-8 rounded-xl overflow-hidden shadow-2xl">
+            <Image src="/blog/images/technicians-rack.png" alt="Técnicos de CCURITY organizando un Rack de Telecomunicaciones" width={800} height={500} className="w-full h-auto object-cover" />
           </div>
 
           <p className="font-semibold mt-6">Más allá de dar una pésima imagen, este desorden tiene consecuencias graves:</p>
@@ -85,8 +85,8 @@ export default function BlogPost() {
             Nuestros ingenieros acuden a cada levantamiento físico y ejecución de obra con todo el Equipo de Protección Personal (EPP) requerido (cascos, botas, chalecos). Somos la opción más segura para integrarnos con tus residentes de obra.
           </p>
           
-          <div className="my-8 rounded-xl bg-slate-200 border-2 border-dashed border-slate-400 flex items-center justify-center h-64 text-slate-500 font-semibold shadow-inner">
-            [SUBIR AQUÍ FOTO DE TÉCNICOS CON CASCO Y CHALECO EN OBRA]
+          <div className="my-8 rounded-xl overflow-hidden shadow-2xl">
+            <Image src="/blog/images/technician-cable.png" alt="Técnicos de CCURITY realizando instalación de red estructurada" width={800} height={500} className="w-full h-auto object-cover" />
           </div>
 
         </article>

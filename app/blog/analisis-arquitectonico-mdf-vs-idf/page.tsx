@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Análisis Arquitectónico: MDF vs. IDF | CCURITY',
@@ -28,6 +29,16 @@ export default function BlogPostMdfVsIdf() {
           <p className="text-lg text-slate-500 italic border-l-4 border-primary pl-4 mb-8">
             Dirigido a: Arquitectos de red, diseñadores de planta interna, gerentes de TI y facility managers.
           </p>
+
+          <figure className="my-8 rounded-2xl overflow-hidden shadow-2xl relative aspect-[16/9]">
+            <Image
+              src="/blog/images/technician-mdf-idf.png"
+              alt="Técnico de CCURITY revisando equipos de red en un cuarto MDF/IDF"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </figure>
 
           <p>
             Al planificar la infraestructura de red para un edificio corporativo, una nave industrial o un campus universitario, uno de los desafíos más grandes es determinar cómo distribuir el cableado y los equipos activos para garantizar la conectividad de cientos o miles de usuarios. Aquí es donde entran en juego los conceptos fundamentales del diseño de telecomunicaciones: el <strong>MDF (Main Distribution Frame)</strong> y los <strong>IDF (Intermediate Distribution Frames)</strong>.

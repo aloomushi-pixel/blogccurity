@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Cumplimiento de la NOM-001-SEDE-2012 en Telecomunicaciones | CCURITY',
@@ -28,6 +29,16 @@ export default function BlogPostNom001() {
           <p className="text-lg text-slate-500 italic border-l-4 border-primary pl-4 mb-8">
             Dirigido a: Directores de Operaciones, Facility Managers e Integradores de Tecnología en México.
           </p>
+
+          <figure className="my-8 rounded-2xl overflow-hidden shadow-2xl relative aspect-[16/9]">
+            <Image
+              src="/blog/images/technician-nom-001.png"
+              alt="Técnico de CCURITY inspeccionando una instalación eléctrica y de telecomunicaciones"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </figure>
 
           <p>
             Al hablar de cableado estructurado y redes corporativas, solemos pensar inmediatamente en estándares internacionales como TIA/EIA, ISO/IEC o BICSI. Sin embargo, en México, existe una regulación legal estricta y de carácter obligatorio que a menudo se pasa por alto en proyectos de TI: la <strong>Norma Oficial Mexicana NOM-001-SEDE-2012 (Instalaciones Eléctricas - Utilización)</strong>.

@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-
+import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Fibra Óptica vs. Cobre: Backbone Industrial | CCURITY',
   description: 'Compara las ventajas técnicas y financieras de utilizar fibra óptica frente al cobre en entornos industriales para garantizar la comunicación a largas distancias.',
@@ -35,6 +35,10 @@ export default function BlogPostFibraVsCobre() {
           <p>
             El debate eterno entre utilizar cableado de cobre de alta categoría (como Cat 6A) o dar el salto definitivo a la fibra óptica tiene ramificaciones directas en el presupuesto del proyecto (CAPEX) y, más importante aún, en la estabilidad operativa a largo plazo (OPEX). A continuación, desglosamos técnicamente ambos enfoques.
           </p>
+          
+          <div className="my-8 rounded-xl overflow-hidden shadow-2xl">
+            <Image src="/blog/images/technician-cable.png" alt="Técnico de CCURITY instalando infraestructura" width={800} height={500} className="w-full h-auto object-cover" />
+          </div>
 
           <h3 className="text-2xl font-bold text-slate-800 mt-10 mb-4">
             1. La barrera de la distancia: El límite de los 90 metros

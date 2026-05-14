@@ -16,7 +16,7 @@ const blogPosts = [
     date: '2026-05-12',
     category: 'Infraestructura',
     readTime: '5 min',
-    imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop', // Placeholder rack image
+    imageUrl: '/blog/images/technicians-rack.png',
   },
   {
     slug: 'analisis-arquitectonico-mdf-vs-idf',
@@ -25,7 +25,7 @@ const blogPosts = [
     date: '2026-05-14',
     category: 'Diseño',
     readTime: '6 min',
-    imageUrl: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop', // Placeholder server room
+    imageUrl: '/blog/images/technician-mdf-idf.png',
   },
   {
     slug: 'normatividad-nom-001-sede-2012-telecomunicaciones',
@@ -34,7 +34,7 @@ const blogPosts = [
     date: '2026-05-15',
     category: 'Normatividad',
     readTime: '8 min',
-    imageUrl: 'https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?q=80&w=800&auto=format&fit=crop', // Placeholder engineer
+    imageUrl: '/blog/images/technician-nom-001.png',
   },
   {
     slug: 'fibra-optica-vs-cobre-para-entornos-industriales',
@@ -43,7 +43,7 @@ const blogPosts = [
     date: '2026-05-16',
     category: 'Conectividad',
     readTime: '7 min',
-    imageUrl: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800&auto=format&fit=crop', // Placeholder fiber optic
+    imageUrl: '/blog/images/technician-cable.png',
   }
 ];
 
