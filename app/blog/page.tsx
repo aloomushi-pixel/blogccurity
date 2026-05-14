@@ -125,7 +125,7 @@ export default function BlogIndex() {
              Nuestros ingenieros certificados te guiarán en el diseño, implementación y mantenimiento de tus redes corporativas e industriales.
            </p>
            <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
-             <Link href="/contacto" className="px-8 py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg transition-transform transform hover:-translate-y-1">
+             <Link href="/" className="px-8 py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg transition-transform transform hover:-translate-y-1">
                Solicitar Levantamiento
              </Link>
              <a href="https://wa.me/525500000000" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-transparent border-2 border-slate-600 hover:border-white text-white font-bold rounded-xl shadow-lg transition-all">

@@ -103,7 +103,7 @@ export default function BlogPostMdfVsIdf() {
           <div className="mt-12 p-6 bg-primary/10 rounded-lg border border-primary/20 text-slate-900">
             <h4 className="font-bold text-xl mb-2 text-primary">¿Necesitas diseñar o auditar tus cuartos de telecomunicaciones?</h4>
             <p className="mb-0">
-              En CCURITY somos especialistas en el diseño arquitectónico y normativo de Site de Cómputo (MDF/IDF). Aseguramos que tu infraestructura cumpla con los estándares TIA-942. <Link href="/contacto" className="text-primary font-bold underline hover:text-primary/80 transition-colors">Solicita una asesoría experta hoy.</Link>
+              En CCURITY somos especialistas en el diseño arquitectónico y normativo de Site de Cómputo (MDF/IDF). Aseguramos que tu infraestructura cumpla con los estándares TIA-942. <Link href="/" className="text-primary font-bold underline hover:text-primary/80 transition-colors">Solicita una asesoría experta hoy.</Link>
             </p>
           </div>
 
@@ -119,7 +119,7 @@ export default function BlogPostMdfVsIdf() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/contacto" className="w-full sm:w-auto px-8 py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/20 transition-all transform hover:-translate-y-1">
+            <Link href="/" className="w-full sm:w-auto px-8 py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/20 transition-all transform hover:-translate-y-1">
               Contactar Ingeniería
             </Link>
             
