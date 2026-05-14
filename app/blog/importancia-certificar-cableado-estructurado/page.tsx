@@ -46,7 +46,7 @@ export default function BlogPost() {
           </ul>
 
           <p className="mt-6 p-4 bg-primary/10 rounded-lg border border-primary/20 text-slate-900">
-            <strong>La solución:</strong> Un servicio profesional de <Link href="/servicios/mantenimiento-y-peinado-de-racks" className="text-primary font-bold underline hover:text-primary/80 transition-colors">mantenimiento y peinado de racks</Link>. Mediante el uso de organizadores, velcros y etiquetado bajo normas TIA/EIA, transformamos el caos en un panel de control eficiente.
+            <strong>La solución:</strong> Un servicio profesional de <Link href="/contacto" className="text-primary font-bold underline hover:text-primary/80 transition-colors">mantenimiento y peinado de racks</Link>. Mediante el uso de organizadores, velcros y etiquetado bajo normas TIA/EIA, transformamos el caos en un panel de control eficiente.
           </p>
 
           <h3 className="text-2xl font-bold text-slate-800 mt-12 mb-4">
@@ -54,10 +54,10 @@ export default function BlogPost() {
           </h3>
           <ul className="list-disc pl-6 space-y-4">
             <li>
-              <strong>Cableado de Cobre (Cat 6 y Cat 6A):</strong> Es el estándar para llevar internet de alta velocidad y energía a estaciones de trabajo y sistemas de <Link href="/servicios/cctv-y-videovigilancia" className="text-primary hover:text-primary/80 underline transition-colors">cctv y videovigilancia</Link>. La Cat 6A es la norma corporativa actual.
+              <strong>Cableado de Cobre (Cat 6 y Cat 6A):</strong> Es el estándar para llevar internet de alta velocidad y energía a estaciones de trabajo y sistemas de <Link href="/contacto" className="text-primary hover:text-primary/80 underline transition-colors">cctv y videovigilancia</Link>. La Cat 6A es la norma corporativa actual.
             </li>
             <li>
-              <strong>Fibra Óptica:</strong> Si necesitas conectar dos naves industriales o superar la barrera de los 90 metros, la <Link href="/servicios/instalacion-fibra-optica" className="text-primary hover:text-primary/80 underline transition-colors">instalación de fibra óptica</Link> es la ruta obligatoria para tu backbone.
+              <strong>Fibra Óptica:</strong> Si necesitas conectar dos naves industriales o superar la barrera de los 90 metros, la <Link href="/contacto" className="text-primary hover:text-primary/80 underline transition-colors">instalación de fibra óptica</Link> es la ruta obligatoria para tu backbone.
             </li>
           </ul>
 
@@ -65,7 +65,7 @@ export default function BlogPost() {
             3. ¿Por qué es importante certificar un cableado estructurado?
           </h3>
           <p>
-            Para garantizar que tu red cumple con las estrictas normas TIA/EIA, es fundamental realizar una <Link href="/servicios/certificacion-de-redes" className="text-primary hover:text-primary/80 underline transition-colors">certificación de redes</Link>. Utilizando escáneres de alta precisión (Fluke Networks), auditamos cada cable y emitimos un reporte técnico en PDF.
+            Para garantizar que tu red cumple con las estrictas normas TIA/EIA, es fundamental realizar una <Link href="/contacto" className="text-primary hover:text-primary/80 underline transition-colors">certificación de redes</Link>. Utilizando escáneres de alta precisión (Fluke Networks), auditamos cada cable y emitimos un reporte técnico en PDF.
           </p>
 
           <div className="my-12 p-8 bg-slate-900 text-white rounded-2xl shadow-2xl relative overflow-hidden">
