@@ -23,28 +23,12 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8 font-medium text-secondary">
-          <Link href="/inicio" className="hover:text-primary transition-colors">
-            Inicio
-          </Link>
-          <Link href="/servicios/cctv-y-videovigilancia" className="hover:text-primary transition-colors">
-            Servicios
-          </Link>
           <Link href="/blog/importancia-certificar-cableado-estructurado" className="hover:text-primary transition-colors">
             Blog
-          </Link>
-          <Link href="/contacto" className="hover:text-primary transition-colors">
-            Contacto
           </Link>
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link 
-            href="/contacto" 
-            className="hidden md:inline-flex px-5 py-2.5 bg-primary text-white font-medium rounded hover:bg-primary/90 transition-colors shadow-sm"
-          >
-            Solicitar Levantamiento
-          </Link>
-          
           {/* Mobile Menu Button */}
           <button 
             className="md:hidden p-2 text-secondary hover:text-primary"
@@ -66,42 +50,12 @@ export default function Header() {
         <div className="md:hidden border-t border-slate-200 bg-white">
           <nav className="flex flex-col p-4 font-medium text-secondary">
             <Link 
-              href="/inicio" 
-              className="px-4 py-3 border-b border-slate-100 hover:text-primary hover:bg-slate-50 transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Inicio
-            </Link>
-            <Link 
-              href="/servicios/cctv-y-videovigilancia" 
-              className="px-4 py-3 border-b border-slate-100 hover:text-primary hover:bg-slate-50 transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Servicios
-            </Link>
-            <Link 
               href="/blog/importancia-certificar-cableado-estructurado" 
               className="px-4 py-3 border-b border-slate-100 hover:text-primary hover:bg-slate-50 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Blog
             </Link>
-            <Link 
-              href="/contacto" 
-              className="px-4 py-3 border-b border-slate-100 hover:text-primary hover:bg-slate-50 transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contacto
-            </Link>
-            <div className="p-4 mt-2">
-              <Link 
-                href="/contacto" 
-                className="flex w-full justify-center px-5 py-3 bg-primary text-white font-medium rounded hover:bg-primary/90 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Solicitar Levantamiento
-              </Link>
-            </div>
           </nav>
         </div>
       )}

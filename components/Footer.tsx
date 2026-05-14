@@ -19,71 +19,14 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-4">Servicios</h3>
+            <h3 className="text-white font-semibold mb-4">Enlaces</h3>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/servicios/cctv-y-videovigilancia" className="hover:text-primary transition-colors">
-                  CCTV y Videovigilancia
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicios/certificacion-de-redes" className="hover:text-primary transition-colors">
-                  Certificación de Redes
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicios/instalacion-cableado-cobre" className="hover:text-primary transition-colors">
-                  Cableado Estructurado
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicios/instalacion-fibra-optica" className="hover:text-primary transition-colors">
-                  Fibra Óptica
-                </Link>
-              </li>
-              <li>
-                <Link href="/servicios/mantenimiento-y-peinado-de-racks" className="hover:text-primary transition-colors">
-                  Mantenimiento de Racks
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-white font-semibold mb-4">Empresa</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/inicio" className="hover:text-primary transition-colors">
-                  Inicio
-                </Link>
-              </li>
               <li>
                 <Link href="/blog/importancia-certificar-cableado-estructurado" className="hover:text-primary transition-colors">
                   Blog
                 </Link>
               </li>
-              <li>
-                <Link href="/contacto" className="hover:text-primary transition-colors">
-                  Contacto
-                </Link>
-              </li>
             </ul>
-          </div>
-
-          <div>
-            <h3 className="text-white font-semibold mb-4">Contacto</h3>
-            <ul className="space-y-2 text-sm">
-              <li>Ciudad de México y Área Metropolitana</li>
-              <li>info@ccurity.com.mx</li>
-            </ul>
-            <div className="mt-6">
-              <Link 
-                href="/contacto" 
-                className="inline-flex px-4 py-2 bg-primary/20 text-primary border border-primary/50 font-medium rounded hover:bg-primary hover:text-white transition-colors text-sm"
-              >
-                Solicitar Cotización
-              </Link>
-            </div>
           </div>
         </div>
 
